@@ -12,14 +12,14 @@ public class PlayingWithCollections {
     }
 
     public static void playWithLists(){
-        // Lav en LinkedList med Student-objekter. Fyld den op med objekter ved at kalde fillMyCollection
+        // Lav en LinkedList og en ArrayList med Student-objekter. Fyld dem op med objekter ved at kalde fillMyCollection
 
-        // Print listen ud og læg mærke til rækkefølgen af objekterne
+        // Print listerne ud og læg mærke til rækkefølgen af objekterne
 
-        // Tilføj et nyt Student-objekt objekt med metoden add().
-        // Hvor i listen tror du, det bliver tilføjet? Test din teori ved at printe listen igen
+        // Tilføj et nyt Student-objekt objekt med metoden add() til hver af listerne.
+        // Hvor i listerne tror du, det bliver tilføjet? Test din teori ved at printe listerne igen
 
-        // Hvad sker der hvis vi tilføjer et nyt Student-objekt på index 3?
+        // Hvad sker der hvis vi tilføjer et nyt Student-objekt på index 3 i hver af listerne?
         // Prøv det af. Tænk over hvad du tror, der vil ske og print så ud for at se om du har ret
 
         // Hvad sker der hvis vi tilføjer to ens Student-objekter?
@@ -35,6 +35,8 @@ public class PlayingWithCollections {
         // Hvor i settet tror du, det bliver tilføjet? Test din teori ved at printe settet igen
 
         // Hvad sker der hvis vi tilføjer to ens Student-objekter?
+
+        // Ekstra - hvad vil det sige, at Student-objekterne er ens? Kan vi ændre på dette?
 
     }
 
