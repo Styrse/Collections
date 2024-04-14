@@ -1,8 +1,8 @@
-package collectionsandpatterns;
+package entities;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable{
 
     private String name;
     private int id;
@@ -50,4 +50,15 @@ public class Student {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        if(o == this)
+            return 0;
+        else if(o == null || getClass() != o.getClass())
+            return 1;
+        else return this.name.compareTo(((Student) o).name);
+
+    }
+
 }

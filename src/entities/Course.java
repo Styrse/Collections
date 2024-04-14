@@ -1,4 +1,4 @@
-package collectionsandpatterns;
+package entities;
 
 import java.util.Objects;
 
