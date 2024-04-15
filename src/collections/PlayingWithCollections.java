@@ -4,20 +4,19 @@ import entities.Course;
 import entities.Student;
 import util.DataReader;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class PlayingWithCollections {
-
-    private static boolean timeOperation = false;
 
     public static void main(String[] args) {
       playWithLists();
       playWithSet();
       playWithMaps();
-
     }
 
     public static void playWithLists(){
+
         // Lav en LinkedList og en ArrayList med Student-objekter. Fyld dem op med objekter ved at kalde DataReader.fillWithStudents() med din liste
 
         // Tilføj et nyt Student-objekt objekt med metoden add() til hver af listerne.
