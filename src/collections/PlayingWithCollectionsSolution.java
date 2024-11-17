@@ -10,9 +10,9 @@ public class PlayingWithCollectionsSolution {
 
     public static void main(String[] args) {
        playWithLists();
-       playWithSet();
-       playWithMaps();
-       searchTimes();
+ //     playWithSet();
+  //     playWithMaps();
+   //    searchTimes();
     }
 
     public static void playWithLists(){
@@ -67,6 +67,12 @@ public class PlayingWithCollectionsSolution {
         DataReader.fillWithStudents(hashset, 10);
         DataReader.fillWithStudents(treeset, 10);
 
+        for(Student s: hashset){
+
+        }
+
+        hashset.size();
+
         // Tilføj et nyt Student-objekt objekt med metoden add()
         // Hvor i settet tror du, det bliver tilføjet? Test din teori ved at printe settet før og efter
         System.out.println("Før vi tilføjer en ny student til hashset: " + hashset);
@@ -81,8 +87,8 @@ public class PlayingWithCollectionsSolution {
         // Hvad sker der hvis vi tilføjer to ens Student-objekter?
         Student s1 = new Student("Tess", 111);
         Student s2 = new Student("Tess", 111);
-        hashset.add(s1);
-        hashset.add(s2);
+        boolean b1 = hashset.add(s1);
+        boolean b2 = hashset.add(s2);
         System.out.println("Efter vi har tilføjet to ens objekter til hashset: " + hashset);
         System.out.println("**********************************************************************************");
         treeset.add(s1);
